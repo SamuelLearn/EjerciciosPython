@@ -7,5 +7,3 @@ def password (p):
         f = lambda x: True if re.findall(formato, x) else False
 	return f(p)
         
-contra= raw_input ('contrasena: ')
-print 'la contraseña no es segura' if password(contra) <> True else 'contraseña correcta'

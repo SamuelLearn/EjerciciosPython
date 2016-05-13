@@ -1,5 +1,5 @@
 
-def user (u):
+def validar_usuario (u):
 
     if len(u) < 6 :
         return 'invalido'
@@ -13,6 +13,5 @@ def user (u):
     else:
         return True
 
-usuario = raw_input ('nombre de usuario: ')
-print user(usuario)
+
 
